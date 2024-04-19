@@ -67,7 +67,7 @@ pipeline {
             script{
 
                 echo '<------------------deploy.sh------------->'
-                sh './deploy.sh'
+                sh './k8s/deploy.sh'
             }
         }
     }
